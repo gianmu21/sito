@@ -1,0 +1,151 @@
+{
+  "hero": {
+    "heading": "Esperto in Digital Marketing",
+    "subheading": "Freelance e Consulenza",
+    "paragraphs": [
+      "Con oltre 8 anni di esperienza nei canali Social, Google Ads e affiliate marketing, sono specializzato nel favorire la crescita delle aziende B2C, nelle promozioni di app e nella generazione di lead, il tutto supportato da solide analisi e da un processo decisionale basato sui dati.",
+      "Lavoro in inglese, tedesco e italiano."
+    ],
+    "cta": "Contattami"
+  },
+  "services": {
+    "strategy": {
+      "heading": "Strategia marketing e Tracking Setup",
+      "paragraphs": [
+        "Creo strategie di marketing personalizzate e configurazioni di tracking studiando la tua attività per dare priorità a giuste metriche. Questo assicura che le campagne siano eseguite basandosi sui dati rilevanti e producano il massimo ROI fin dall'inizio."
+      ]
+    },
+    "acquisition": {
+      "heading": "Acquisizione clienti",
+      "paragraphs": [
+        "Aiuto la tua attività a raggiungere i tuoi clienti ideali e ad accendere la tua crescita con attività di PPC, affiliati e social media. Dal lancio di campagne rilevanti alla creazione di brief creativi, creerò ed eseguirò attività che cattureranno, convertiranno e alimenteranno il tuo business con lead e vendite di qualità."
+      ]
+    },
+    "analysis": {
+      "heading": "Analisi e ottimizzazione",
+      "paragraphs": [
+        "Mantengo le vostre campagne sempre efficienti grazie a un approccio all'analisi e all'ottimizzazione basato sull'analisi dei dati.",
+        "Sfruttando indicazioni in tempo reale, analisi avanzate e strumenti di visualizzazione dei dati all'avanguardia. Vedrete i risultati in modo chiaro e il vostro budget sarà utilizzato in maniera più profittevole."
+      ]
+    },
+    "ctas": [
+      {
+        "label": "Check Case Studies",
+        "href": "/cases"
+      },
+      {
+        "label": "Prenota una call conoscitiva",
+        "href": "/contact"
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "Su di me",
+    "heading": "Aiuto le Aziende a crescere online",
+    "paragraphs": [
+      "Con oltre 8 anni di esperienza, sono un performance marketer specializzato nella crescita di fatturato per aziende digitali. Mi occupo della creazione di funnel di acquisizione e gestione di canali di performance marketing al monitoraggio dei dati, analisi e reporting, il tutto con un focus su dati e risultati.",
+      "Con sede a Berlino, lavoro da remoto per aziende in tutta Europa."
+    ]
+  },
+  "channels": {
+    "heading": "Canali",
+    "logos": [
+      {
+        "name": "Meta",
+        "src": "/images/logos/meta.png"
+      },
+      {
+        "name": "Google Ads",
+        "src": "/images/logos/google-ads.png"
+      },
+      {
+        "name": "TikTok",
+        "src": "/images/logos/tiktok.png"
+      },
+      {
+        "name": "Awin",
+        "src": "/images/logos/awin.png"
+      },
+      {
+        "name": "Google Tag Manager",
+        "src": "/images/logos/google-tag-manager.png"
+      },
+      {
+        "name": "Google Analytics",
+        "src": "/images/logos/google-analytics.png"
+      }
+    ]
+  },
+  "whyMe": {
+    "heading": "Perché scegliermi?",
+    "items": [
+      {
+        "title": "Skin in the game",
+        "text": "Grazie ad esperienza diretta maturata lavorando esclusivamente sul lato brand, ho imparato come allineare le iniziative di marketing con gli obiettivi aziendali, andando oltre le sole campagne e concentrandomi sul conseguimento di risultati che contano."
+      },
+      {
+        "title": "Cross-Departement",
+        "text": "Avendo lavorato con aziende di diverse dimensioni e in diverse fasi di crescita, sono in grado di fornire strategie che si integrano perfettamente con più reparti."
+      },
+      {
+        "title": "Risultati chiari",
+        "text": "Credo nella totale trasparenza. Saprai sempre cosa aspettarti in ogni fase del progetto, con consegne e tempistiche chiaramente definite."
+      },
+      {
+        "title": "Contatto diretto",
+        "text": "Nessun intermediario, solo accesso diretto a me. Dalla nostra consulenza iniziale al completamento del progetto, riceverai un'attenzione personale e individuale per garantire che le tue esigenze siano soddisfatte."
+      }
+    ]
+  },
+  "clients": {
+    "heading": "Clienti",
+    "logos": [
+      {
+        "name": "foodspring",
+        "src": "/images/clients/foodspring.png"
+      },
+      {
+        "name": "Taxfix",
+        "src": "/images/clients/taxfix.png"
+      },
+      {
+        "name": "Medgate",
+        "src": "/images/clients/medgate.png"
+      },
+      {
+        "name": "HelloFresh",
+        "src": "/images/clients/hellofresh.png"
+      },
+      {
+        "name": "Cino",
+        "src": "/images/clients/cino.png"
+      }
+    ]
+  },
+  "testimonial": {
+    "heading": "Dicono di me",
+    "quote": "\"Con Gianni abbiamo trovato un partner affidabile per le nostre attività di marketing online. La sua competenza in SEA e Social Media è altamente professionale. Le complesse questioni mediche non solo vengono preparate in modo informativo e accattivante, ma sono anche ottimizzate in modo ottimale per i motori di ricerca (sia a pagamento che organici) e per i nostri specifici gruppi target. Di conseguenza, le nostre classifiche e la nostra visibilità nei motori di ricerca sono notevolmente migliorate. L'implementazione è sempre stata rapida e assolutamente affidabile.\"",
+    "author": "Manuel Mayr,",
+    "role": "Lead Product Manager Consumer Digital Health,",
+    "company": "Medgate Switzerland"
+  },
+  "howItWorks": {
+    "heading": "Come funziona",
+    "steps": [
+      {
+        "title": "Contattami",
+        "text": "Inviami un breve messaggio descrivendo la tua situazione."
+      },
+      {
+        "title": "Chiamata introduttiva",
+        "text": "Fisseremo una chiamata gratuita di 30 minuti per discutere delle tue esigenze e valutare se posso esserti di aiuto."
+      },
+      {
+        "title": "Piano personalizzato",
+        "text": "Ti fornirò un piano di supporto dettagliato con una tempistica personalizzata per la tua azienda."
+      }
+    ],
+    "getInTouch": "Get in touch",
+    "cta": "Contattami"
+  }
+}

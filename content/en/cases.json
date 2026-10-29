@@ -1,0 +1,80 @@
+{
+  "heading": "Case Studies",
+  "subheading": "A short but meaningful selection of my work.",
+  "intro": [
+    "The following are a few example of the services I offer and how i tackle work: a meticulous, data-driven approach combined with personal creative insight that lead to effective results.",
+    "Most of the work I do is subject to NDA and can't be shared online, so please [contact me](/contact) for a more in depth look on my projects."
+  ],
+  "labels": { "client": "Client", "challenges": "Challenges & Goals", "actions": "Channels & Action points", "results": "Results" },
+  "cases": [
+    {
+      "slug": "cino",
+      "client": "Cino",
+      "industry": "Fintech",
+      "tone": "white",
+      "about": "Cino is a fintech app that offers a shared virtual card, allowing groups to split bills instantly and effortlessly. It links to individual bank accounts, enabling everyone to pay their share at the moment of purchase, eliminating the need for follow-ups or tracking payments.",
+      "challenges": [
+        "Cino aimed to test a broader distribution of their app across various European markets to tap into new user bases. Additionally, they sought to increase their active user count efficiently, ensuring sustainable growth without compromising on user engagement quality.",
+        "Another critical objective was to establish a comprehensive growth framework and analytics system, enabling them to rigorously test and diversify their user acquisition channels.",
+        "These efforts were geared towards optimizing their marketing strategies and enhancing overall performance."
+      ],
+      "actions": [
+        "Oversaw all **paid social media** activities on Meta and TikTok.",
+        "I developed and implemented a robust test framework to accelerate insights and drive data-informed decisions, launched and optimised multiple campaigns across six countries, and spearheaded content creation briefings and market research to identify and capitalise on growth opportunities within Europe."
+      ],
+      "results": ["The extensive testing conducted across various European countries led to the identification of the most effective strategies and assets for scaling the brand and reducing the final Customer Acquisition Cost (CAC). (under NDA)"],
+      "metrics": [
+        { "value": "+180%", "label": "Active users Quarter over Quarter" },
+        { "value": "-52%", "label": "CPI" }
+      ]
+    },
+    {
+      "slug": "hellofresh",
+      "client": "HelloFresh",
+      "industry": "Meal Kit",
+      "tone": "lime",
+      "about": "HelloFresh is a leading global meal kit company that delivers pre-portioned ingredients and chef-designed recipes directly to customers' doorsteps, enabling convenient home cooking with a focus on fresh, high-quality ingredients.",
+      "challenges": [],
+      "actions": ["Managed and optimized the **affiliate channel** for HelloFresh and Greenchef brands in the UK, overseeing a monthly budget over half mil €. With strategic channel analysis, partnership renegotiations, and continuous optimization."],
+      "results": [],
+      "metrics": [{ "value": "Outstanding ROI", "label": "Can't share numbers, project unden NDA" }]
+    },
+    {
+      "slug": "medgate",
+      "client": "Medgate",
+      "industry": "TeleHealth",
+      "tone": "blue",
+      "about": "Medgate is a platform that specializes in providing telemedicine and digital health solutions, facilitating remote healthcare services and consultations in the DACH markets.",
+      "challenges": ["The company aimed to increase conversions from both their web and mobile applications, ensuring a seamless and effective user journey across platforms. Expansion and testing of activities in new countries were also prioritized to explore and capture international markets. Additionally, launching new performance marketing activities was crucial to diversify and strengthen their marketing efforts."],
+      "actions": [
+        "A comprehensive strategy was implemented to direct all growth activities across **Paid Search, Paid Social media, and App Store channels**.",
+        "This multi-faceted approach was designed to effectively drive user acquisition for Medgate services and the app, ensuring a cohesive and integrated marketing effort. By leveraging targeted campaigns and optimizing channel performance, the strategy aimed to enhance visibility and engagement, ultimately increasing conversions and app installs.",
+        "This included expanding activities into new geographical markets and improving SEO presence."
+      ],
+      "results": ["Following results are including hard conversions actions (Appointments, ..) and not soft conversions (eg. Installs)."],
+      "metrics": [
+        { "value": "+217%", "label": "Conversions vs previous period" },
+        { "value": "+166%", "label": "Overall ROAS" }
+      ]
+    },
+    {
+      "slug": "coaching",
+      "client": "(NDA)",
+      "industry": "Coaching",
+      "tone": "white",
+      "about": "The company (name under NDA) offers professional Coaching with the goal to improve workplace safety compliance and culture, in the italian market.",
+      "challenges": ["The company aimed to increase conversions from Goal for the collaboration was to increase Leads generated from **Social Media Campaigns** in an efficient way."],
+      "actions": [
+        "In tackling the project, a comprehensive audit and creation tracking setup were initiated to ensure all efforts were measurable from the get-go.",
+        "Extensive research on competitors provided valuable insights, shaping the strategy moving forward.",
+        "Creatives were meticulously mapped out to align with target audience preferences, while adjustments to the landing page were implemented to enhance user experience and conversion rates. A/B testing on the landing pages allowed for data-driven decisions to optimize performance.",
+        "The account structure was revamped for better efficiency and clarity, and multivariate testing of ads was conducted to identify the most effective combinations."
+      ],
+      "results": ["The first Campaign resulted in exceptional performance, achieving a 700% increase in leads while simultaneously reducing the cost per lead by 33% compared to agency-led campaign."],
+      "metrics": [
+        { "value": "+700%", "label": "Leads vs previous campaigns" },
+        { "value": "-33%", "label": "CPL vs previous campaign" }
+      ]
+    }
+  ]
+}

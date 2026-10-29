@@ -1,0 +1,52 @@
+{
+  "nav": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "CV",
+      "href": "/cv"
+    },
+    {
+      "label": "Cases",
+      "href": "/cases"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact"
+    }
+  ],
+  "legal": [
+    {
+      "label": "Contact",
+      "href": "/contact"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "/privacy"
+    },
+    {
+      "label": "Impressum",
+      "href": "/impressum"
+    }
+  ],
+  "menuOpen": "Open site navigation",
+  "menuClose": "Close site navigation",
+  "linkedin": "LinkedIn",
+  "caseStudy": "> Case Study",
+  "form": {
+    "name": "Your Name",
+    "email": "Email",
+    "message": "Message",
+    "required": "(Obbligatorio)",
+    "submit": "Invia",
+    "sending": "Invio in corso…",
+    "sent": "Grazie, il tuo messaggio è in arrivo. Ti risponderò a breve.",
+    "error": "Qualcosa è andato storto."
+  },
+  "notFound": {
+    "title": "Pagina non trovata",
+    "back": "Torna alla home"
+  }
+}

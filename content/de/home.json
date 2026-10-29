@@ -1,0 +1,150 @@
+{
+  "hero": {
+    "heading": "Performance Marketing Lead",
+    "subheading": "Freelance & Consultancy",
+    "paragraphs": [
+      "Mit über 8 Jahren Erfahrung in den Bereichen Paid Social, Google Ads und Affiliate-Marketing bin ich auf die Wachstumsförderung von B2C-Unternehmen, App-Werbung und Lead-Generierung spezialisiert, unterstützt durch leistungsstarke digitale Analysen und datengesteuerte Entscheidungsfindung.",
+      "Ich arbeite auf Englisch, Deutsch und Italienisch."
+    ],
+    "cta": "Kontakt"
+  },
+  "services": {
+    "strategy": {
+      "heading": "Marketingstrategie & Tracking Setup",
+      "paragraphs": [
+        "Ich erstelle maßgeschneiderte Marketingstrategien und Tracking-Setups, indem ich Ihr Unternehmen analysiere, um die richtigen KPIs zu priorisieren. Dadurch wird sichergestellt, dass Ihre Kampagnen datengesteuert und zielorientiert sind und von Anfang an einen maximalen ROI erzielen."
+      ]
+    },
+    "acquisition": {
+      "heading": "Kundenakquise",
+      "paragraphs": [
+        "Ich unterstütze Ihr Unternehmen, Ihre idealen Kunden zu erreichen und Ihr Wachstum mit zielgenauem PPC, Affiliates und Paid Social Medien anzukurbeln. Von der Einführung effektiver Kampagnen bis hin zur Erstellung herausragender Kreativbriefings erstelle und schalte ich Anzeigen, die fesseln, konvertieren und Ihr Unternehmen mit hochwertigen Leads und Sales versorgen."
+      ]
+    },
+    "analysis": {
+      "heading": "Analyse & Optimierung",
+      "paragraphs": [
+        "Mit einem datengesteuerten Analyse- und Optimierungsansatz sorge ich dafür, dass Ihre Kampagnen auf Hochtouren laufen. Dabei nutze ich Echtzeiteinblicke, erweiterte Analysen und modernste Datenvisualisierungstools. Sie werden die Ergebnisse deutlich sehen und Ihr Budget wird härter für Sie arbeiten."
+      ]
+    },
+    "ctas": [
+      {
+        "label": "Check Case Studies",
+        "href": "/cases"
+      },
+      {
+        "label": "Kontakt",
+        "href": "/contact"
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "Über mich",
+    "heading": "Ich unterstütze Online-Unternehmen beim Wachstum",
+    "paragraphs": [
+      "Mit über 8 Jahren Erfahrung kann ich mich als Full-Stack-Performance-Marketer bezeichnen, der sich auf die Umsatzsteigerung für digitale Unternehmen spezialisiert hat. Ich kümmere mich um alles, von der Erstellung von Acquisition Funnels und der Verwaltung von Performance-Marketingkanälen bis hin zur Datenverfolgung, -analyse und -berichterstattung, alles mit einem Fokus auf Daten und Ergebnissen.",
+      "Von Berlin aus arbeite ich remote für Unternehmen in ganz Europa."
+    ]
+  },
+  "channels": {
+    "heading": "Kanäle",
+    "logos": [
+      {
+        "name": "Meta",
+        "src": "/images/logos/meta.png"
+      },
+      {
+        "name": "Google Ads",
+        "src": "/images/logos/google-ads.png"
+      },
+      {
+        "name": "TikTok",
+        "src": "/images/logos/tiktok.png"
+      },
+      {
+        "name": "Awin",
+        "src": "/images/logos/awin.png"
+      },
+      {
+        "name": "Google Tag Manager",
+        "src": "/images/logos/google-tag-manager.png"
+      },
+      {
+        "name": "Google Analytics",
+        "src": "/images/logos/google-analytics.png"
+      }
+    ]
+  },
+  "whyMe": {
+    "heading": "Warum Sollten Sie sich für eine Zusammenarbeit mit mir entscheiden?",
+    "items": [
+      {
+        "title": "Skin in the Game",
+        "text": "Aufgrund meiner direkten Erfahrung, die ich ausschließlich auf der Markenseite gesammelt habe, weiß ich, wie man Marketinginitiativen mit den zentralen Geschäftszielen in Einklang bringt und über Kampagnen hinausgeht, um sich auf das Erzielen wirklich entscheidender Ergebnisse zu konzentrieren."
+      },
+      {
+        "title": "Cross-Department Collaboration",
+        "text": "Da ich mit Unternehmen unterschiedlicher Größe und in verschiedenen Wachstumsphasen gearbeitet habe, kann ich Strategien bereitstellen, die sich nahtlos in mehrere Abteilungen integrieren lassen."
+      },
+      {
+        "title": "Klare Zielvorgaben",
+        "text": "Ich glaube an vollständige Transparenz. Sie wissen immer, was Sie in jeder Phase des Projekts erwartet, mit klar definierten Ergebnissen und Zeitplänen."
+      },
+      {
+        "title": "Direkter Kontakt",
+        "text": "Keine Zwischenhändler, nur direkter Kontakt mit mir. Von unserer ersten Besprechung bis zum Abschluss des Projekts erhalten Sie persönliche, individuelle Betreuung, um sicherzustellen, dass Ihre Anforderungen erfüllt werden."
+      }
+    ]
+  },
+  "clients": {
+    "heading": "Kunden",
+    "logos": [
+      {
+        "name": "foodspring",
+        "src": "/images/clients/foodspring.png"
+      },
+      {
+        "name": "Taxfix",
+        "src": "/images/clients/taxfix.png"
+      },
+      {
+        "name": "Medgate",
+        "src": "/images/clients/medgate.png"
+      },
+      {
+        "name": "HelloFresh",
+        "src": "/images/clients/hellofresh.png"
+      },
+      {
+        "name": "Cino",
+        "src": "/images/clients/cino.png"
+      }
+    ]
+  },
+  "testimonial": {
+    "heading": "Was Kunden über mich sagen",
+    "quote": "„Mit Gianni haben wir einen zuverlässigen Partner für unsere Online-Marketing-Aktivitäten gefunden. Seine Expertise in SEA und Social Media ist hochprofessionell. Komplexe medizinische Themen werden nicht nur informativ und ansprechend aufbereitet, sondern auch für Suchmaschinen (sowohl bezahlte als auch organische) und unsere spezifischen Zielgruppen optimal optimiert. Dadurch haben sich unsere Rankings und die Sichtbarkeit in den Suchmaschinen deutlich verbessert. Die Umsetzung erfolgte stets schnell und absolut zuverlässig.“",
+    "author": "Manuel Mayr,",
+    "role": "Lead Product Manager Consumer Digital Health,",
+    "company": "Medgate Switzerland"
+  },
+  "howItWorks": {
+    "heading": "How it works",
+    "steps": [
+      {
+        "title": "Kontakt aufnehmen",
+        "text": "Senden Sie eine kurze Nachricht, in der Sie Ihre Herausforderungen beschreiben."
+      },
+      {
+        "title": "Intro Call",
+        "text": "Wir vereinbaren einen kostenlose 30-minütigen Anruf, um Ihre Anforderungen zu besprechen."
+      },
+      {
+        "title": "Individueller Plan",
+        "text": "Ich erstelle einen detaillierten, auf Sie zugeschnittenen Supportplan und Zeitplan."
+      }
+    ],
+    "getInTouch": "Get in touch",
+    "cta": "Kontakt"
+  }
+}

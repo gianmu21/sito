@@ -1,0 +1,100 @@
+{
+  "eyebrow": "About me",
+  "heading": "About me",
+  "summary": "Perpetually curious Full Stack Marketer with 10+ years of experience managing 6-figure monthly budgets and hands-on involvement in the Start-Up environment with a focus on Data Analytics, Paid Social, Affiliate, Paid Search, Native Adv and CRO.",
+  "experience": [
+    {
+      "company": "Syntho, Cardioscan, Outliers, Firotech, +",
+      "period": "Mar 2021 - Now",
+      "title": "Freelance Performance & Affiliate Marketing",
+      "text": "Helping digital business by leading teams and growing revenue from creation and optimisation of acquisition funnels, performance marketing channels management, data-tracking, analysis and reporting."
+    },
+    {
+      "company": "Cino",
+      "period": "Mar 2024 - Nov 2024",
+      "title": "Freelance Lead Performance Marketing",
+      "text": "Oversaw all paid social media activities on Meta and TikTok, contributing to a 180% quarter-over-quarter growth in customer base.",
+      "caseStudy": "/cases#cino"
+    },
+    {
+      "company": "Medgate",
+      "period": "May 2023 - Feb 2024",
+      "title": "Freelance Lead Performance Marketing",
+      "text": "Directed all paid activities across Search, Social Media, and App Store channels to drive user acquisition for Medgate services and App.",
+      "caseStudy": "/cases#medgate"
+    },
+    {
+      "company": "HelloFresh & Greenchef",
+      "period": "Apr 2023 - Jul 2024",
+      "title": "Freelance Affiliate Marketing Manager",
+      "text": "Managed and optimized the affiliate channel for Hellofresh and Greenchef brands in the UK.",
+      "caseStudy": "/cases#hellofresh"
+    },
+    {
+      "company": "Taxfix",
+      "period": "Aug 2022 - Dec 2022",
+      "title": "Freelance Affiliate Marketing Consultant",
+      "text": "Led the launch and case study of the affiliate channel as a new acquisition channel."
+    },
+    {
+      "company": "Omo Health",
+      "period": "Aug 2021 - June 2022",
+      "title": "Lead Growth Marketing & Data Analytics",
+      "text": "Setup and run performance marketing campaigns within multiple networks, funnel-wide tracking and analytics system, created unified Marketing & Business Reporting, and more."
+    },
+    {
+      "company": "Foodspring",
+      "period": "Apr 2017 - Jul 2021",
+      "title": "Lead Affiliate & Partnerships Manager",
+      "text": "Initialise and structure the Affiliate program for 9 countries achieving a monthly 7 figures revenue flow, supervising ca. 150 partners' portfolio growth and maintenance."
+    },
+    {
+      "company": "Lionshome Gmbh",
+      "period": "Nov 2015 - Apr 2017",
+      "title": "Online Marketing Manager",
+      "text": "Supervision and support of online marketing activities of 9 countries."
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "level": "Full Professional Proficiency"
+    },
+    {
+      "name": "German",
+      "level": "Full Professional Proficiency"
+    },
+    {
+      "name": "Italian",
+      "level": "Native or Bilingual Proficiency"
+    },
+    {
+      "name": "Spanish",
+      "level": "Elementary Proficiency"
+    }
+  ],
+  "sideProjects": [
+    {
+      "name": "/GetANomad"
+    },
+    {
+      "name": "/ Nomadhut",
+      "text": "Curated Marketplace for long-rental remote accomodations. spin-off of GetANomad"
+    },
+    {
+      "name": "/ Editorial Websites",
+      "items": [
+        "/ Vitalowcost.it",
+        "/ Viaggiaincampania.it",
+        "/ Dissonanze.it"
+      ]
+    }
+  ],
+  "subheading": "Performance Marketing Lead",
+  "sections": {
+    "experience": "Experience",
+    "languages": "Languages",
+    "sideProjects": "Side Projects"
+  },
+  "plus": "+++"
+}

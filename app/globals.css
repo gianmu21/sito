@@ -1,0 +1,205 @@
+@import "tailwindcss";
+
+/* Design tokens, taken from the Wix Studio site. Mirror these as Figma variables. */
+:root {
+  --canvas: #f4f4f4;
+  --blue: #223aeb;
+  --lime: #aefc5f;
+  --white: #ffffff;
+  --black: #000000;
+  --ink: #111111;
+  --header-h: 4.375rem; /* 70px at 1440 */
+  --radius-block: 40px;
+  --radius-card: 45px;
+  --radius-tile: 30px;
+}
+
+@theme inline {
+  --color-canvas: var(--canvas);
+  --color-blue: var(--blue);
+  --color-lime: var(--lime);
+  --color-ink: var(--ink);
+  --font-sans: var(--font-questrial), system-ui, sans-serif;
+  --radius-block: var(--radius-block);
+  --radius-card: var(--radius-card);
+  --radius-tile: var(--radius-tile);
+  --breakpoint-xl: 1440px;
+}
+
+@layer base {
+  /* Wix scales the whole layout with the viewport above 1440px; so do we, up to 1920px. */
+  html {
+    font-size: clamp(16px, 1.1111vw, 21.333px);
+    scroll-padding-top: var(--header-h);
+  }
+  body {
+    background: var(--canvas);
+    color: var(--blue);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  h1,
+  h2,
+  h3 {
+    font-weight: 400;
+    text-wrap: balance;
+  }
+}
+
+@layer components {
+  /* Type scale measured on the Wix site at 1440px and at 390px. */
+  .title-xl {
+    font-size: clamp(2.25rem, 1rem + 5.143vw, 5.625rem); /* 36px at 390 → 90px at 1440 */
+    line-height: 1;
+    letter-spacing: -0.03em;
+  }
+  .title-xl-tight {
+    font-size: clamp(2.25rem, 1.23rem + 4.19vw, 5rem); /* 36px → 80px */
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+  }
+  .title-lg {
+    font-size: clamp(1.5rem, 1.22rem + 1.143vw, 2.25rem); /* 24px → 36px */
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+  }
+  .title-md {
+    font-size: clamp(1.375rem, 1.26rem + 0.476vw, 1.6875rem); /* 22px → 27px */
+    line-height: 1.4;
+  }
+  .lead {
+    font-size: clamp(1rem, 0.954rem + 0.19vw, 1.125rem); /* 16px → 18px */
+    line-height: 1.6;
+    letter-spacing: -0.02em;
+  }
+  .copy {
+    font-size: 1rem;
+    line-height: 1.6;
+    letter-spacing: -0.03em;
+  }
+  .copy-sm {
+    font-size: 0.875rem;
+    line-height: 1.4;
+  }
+
+  .rounded-block {
+    border-radius: var(--radius-block);
+  }
+  .rounded-card {
+    border-radius: var(--radius-card);
+  }
+  .rounded-tile {
+    border-radius: var(--radius-tile);
+  }
+
+  /* Sections that pin under the header while the next one slides over them */
+  .stack {
+    position: sticky;
+    top: var(--header-h);
+  }
+
+  /*
+   * Entrance animations, triggered by <Reveal> when the element scrolls into view.
+   * Parameters match the Wix presets: fade 1.2s, glide 1.2s linear from 100% (or 50%)
+   * of the element's own height with no fade, shape 1.6s.
+   */
+  [data-reveal="fade"] {
+    opacity: 0;
+    transition: opacity 1.2s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  }
+  [data-reveal="glide"] {
+    transform: translateY(100%);
+    transition: transform 1.2s linear;
+  }
+  [data-reveal="glide-half"] {
+    transform: translateY(50%);
+    transition: transform 1.2s linear;
+  }
+  [data-reveal="shape"] {
+    opacity: 0;
+    transform: scale(0.3) rotate(-90deg);
+    transition:
+      opacity 1.28s linear,
+      transform 1.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  [data-reveal].is-in {
+    opacity: 1;
+    transform: none;
+  }
+
+  /* The hero starburst spins in on load: scale 0 → 1 with a full turn over 2s */
+  .spin-in {
+    animation: spin-in 2s linear both;
+  }
+  /* The curved arrow in the bento grid breathes forever: a 10px vertical bob */
+  .breathe {
+    animation: breathe 2.4s linear infinite;
+  }
+
+  /* Legal pages rendered from markdown */
+  .prose-legal {
+    max-width: 52rem;
+    line-height: 1.7;
+    letter-spacing: -0.02em;
+  }
+  .prose-legal h2 {
+    font-size: 1.6875rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0.75rem;
+  }
+  .prose-legal h3 {
+    font-size: 1.125rem;
+    margin-top: 1.75rem;
+    margin-bottom: 0.5rem;
+  }
+  .prose-legal p,
+  .prose-legal ul,
+  .prose-legal ol {
+    margin-bottom: 1rem;
+  }
+  .prose-legal ul,
+  .prose-legal ol {
+    padding-left: 1.5rem;
+    list-style: disc;
+  }
+  .prose-legal a {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    overflow-wrap: anywhere;
+  }
+}
+
+@keyframes spin-in {
+  from {
+    transform: rotate(-360deg) scale(0);
+  }
+  to {
+    transform: none;
+  }
+}
+
+@keyframes breathe {
+  0%,
+  50%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  25% {
+    transform: translate3d(0, 10px, 0);
+  }
+  75% {
+    transform: translate3d(0, -10px, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal] {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .spin-in,
+  .breathe {
+    animation: none;
+  }
+}

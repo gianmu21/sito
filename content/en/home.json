@@ -1,0 +1,84 @@
+{
+  "hero": {
+    "heading": "Performance Marketing Lead",
+    "subheading": "Freelance & Consultancy",
+    "paragraphs": [
+      "With over 8 years of experience across Paid Social, Google Ads and Affiliate marketing, I specialise in driving growth for B2C businesses, app promotions, and lead generation, backed by strong digital analytics and data-driven decision-making.",
+      "I work in English, German and Italian."
+    ],
+    "cta": "Contact me"
+  },
+  "services": {
+    "strategy": {
+      "heading": "Marketing Strategy & Tracking set up",
+      "paragraphs": ["I create tailored marketing strategies and tracking setup by studying your business to prioritise the right metrics. This ensures your campaigns are data-driven, goal-focused, and deliver maximum ROI from the start."]
+    },
+    "acquisition": {
+      "heading": "Customer Aquisition",
+      "paragraphs": ["I help your business reach your ideal customers and ignite your growth with laser-targeted PPC, Affiliates and Paid Social Media. From launching buzz-worthy campaigns to crafting standout creative briefs, I’ll create and execute ads that captivate, convert, and fuel your business with quality leads and sales."]
+    },
+    "analysis": {
+      "heading": "Analysis & Optimisation",
+      "paragraphs": ["I keep your campaigns firing on all cylinders with a data-driven approach to analysis and optimization. Leveraging real-time insights, advanced analytics, and cutting-edge data visualization tools. You’ll see the results clearly, and your budget will work harder for you."]
+    },
+    "ctas": [
+      { "label": "Check Case Studies", "href": "/cases" },
+      { "label": "Book a Free Consultation", "href": "/contact" }
+    ]
+  },
+  "about": {
+    "eyebrow": "About me",
+    "heading": "I help online businesses grow.",
+    "paragraphs": [
+      "With over 8 years of experience, I’m a full-stack performance marketer specialised in driving revenue for digital businesses. I handle everything from creating acquisition funnels and managing performance marketing channels to data tracking, analysis, and reporting, all with a focus on data and results.",
+      "Based in Berlin I work remotely for companies all over Europe."
+    ]
+  },
+  "channels": {
+    "heading": "Channels",
+    "logos": [
+      { "name": "Meta", "src": "/images/logos/meta.png" },
+      { "name": "Google Ads", "src": "/images/logos/google-ads.png" },
+      { "name": "TikTok", "src": "/images/logos/tiktok.png" },
+      { "name": "Awin", "src": "/images/logos/awin.png" },
+      { "name": "Google Tag Manager", "src": "/images/logos/google-tag-manager.png" },
+      { "name": "Google Analytics", "src": "/images/logos/google-analytics.png" }
+    ]
+  },
+  "whyMe": {
+    "heading": "Why me?",
+    "items": [
+      { "title": "Skin in the game", "text": "With direct experience working exclusively on the brand side, I understand how to align marketing initiatives with core business objectives, going beyond campaigns to focus on driving results that matter." },
+      { "title": "Cross-Department Collaboration", "text": "Having worked with companies of different sizes and various stages of growth, I can provide strategies that integrate seamlessly with multiple departments." },
+      { "title": "Clear Deliverables", "text": "I believe in full transparency. You'll always know what to expect at every stage of the project, with clearly defined deliverables and timelines." },
+      { "title": "Direct Contact", "text": "No layers, no middlemen, just direct access to me. From our initial consultation to project completion, you’ll receive personal, one-on-one attention to ensure your needs are met." }
+    ]
+  },
+  "clients": {
+    "heading": "Clients",
+    "logos": [
+      { "name": "foodspring", "src": "/images/clients/foodspring.png" },
+      { "name": "Taxfix", "src": "/images/clients/taxfix.png" },
+      { "name": "Medgate", "src": "/images/clients/medgate.png" },
+      { "name": "HelloFresh", "src": "/images/clients/hellofresh.png" },
+      { "name": "Cino", "src": "/images/clients/cino.png" }
+    ]
+  },
+  "testimonial": {
+    "heading": "They say about me",
+    "quote": "\"With Gianni, we have found a reliable partner for our online marketing activities. His expertise in SEA and Social Media is highly professional. Complex medical issues are not only prepared in an informative and appealing manner but are also optimally optimized for search engines (both paid and organic) and our specific target groups. As a result, our rankings and visibility in search engines have significantly improved. The implementation has always been quick and absolutely reliable.\"",
+    "author": "Manuel Mayr,",
+    "role": "Lead Product Manager Consumer Digital Health,",
+    "company": "Medgate Switzerland"
+  },
+  "howItWorks": {
+    "heading": "How it works",
+    "steps": [
+      { "title": "Reach Out", "text": "Send a brief message outlining your challenges." },
+      { "title": "Intro Call", "text": "We'll schedule a 30-minute call free of charge to discuss your needs." },
+      { "title": "Custom Plan", "text": "I’ll provide a detailed support plan and timeline tailored for you." }
+    ],
+    "getInTouch": "Get in touch",
+    "cta": "Contact Me"
+  }
+}
