@@ -22,9 +22,19 @@ export interface UiContent {
   form: {
     name: string;
     email: string;
-    message: string;
-    required: string;
+    next: string;
+    back: string;
     submit: string;
+    step2Heading: string;
+    company: string;
+    url: string;
+    topic: string;
+    topicOptions: string[];
+    budget: string;
+    budgetOptions: string[];
+    message: string;
+    messageHint: string;
+    required: string;
     sending: string;
     sent: string;
     error: string;

@@ -38,9 +38,31 @@
   "form": {
     "name": "Your Name",
     "email": "Email",
-    "message": "Message",
+    "next": "Next",
+    "back": "Back",
+    "submit": "Submit",
+    "step2Heading": "Tell me more about your business",
+    "company": "Company name",
+    "url": "Company URL",
+    "topic": "Topic",
+    "topicOptions": [
+      "Multi-Channel",
+      "Paid Search",
+      "Paid social",
+      "Affiliate",
+      "Digital Analytics",
+      "Other"
+    ],
+    "budget": "What's the monthly marketing budget?",
+    "budgetOptions": [
+      "Still to evaluate",
+      "0€ - 10.000€",
+      "10.000€ - 50.000€",
+      "50.000 € +"
+    ],
+    "message": "Tell me more",
+    "messageHint": "Write 2 lines about your company and what I can do to support it",
     "required": "(Pflichtfeld)",
-    "submit": "Senden",
     "sending": "Wird gesendet…",
     "sent": "Danke, Ihre Nachricht ist unterwegs. Ich melde mich in Kürze.",
     "error": "Etwas ist schiefgelaufen."

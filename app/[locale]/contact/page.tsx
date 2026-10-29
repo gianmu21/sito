@@ -32,7 +32,7 @@ export default async function ContactPage({ params }: Props) {
       </a>
 
       <div className="mt-16 grid gap-6 lg:grid-cols-[1.72fr_1fr] lg:gap-5">
-        <div className="rounded-block flex min-h-[26.25rem] items-center bg-blue px-8 py-14 sm:px-14 lg:min-h-[34.375rem] lg:rounded-r-none lg:px-24">
+        <div className="rounded-block flex min-h-[26.25rem] items-center bg-blue px-8 py-10 sm:px-14 lg:min-h-[34.375rem] lg:rounded-r-none lg:px-24 lg:py-6">
           <ContactForm labels={ui.form} />
         </div>
         <Image
@@ -40,7 +40,7 @@ export default async function ContactPage({ params }: Props) {
           alt={site.name}
           placeholder="blur"
           sizes="(min-width: 1024px) 480px, 100vw"
-          className="rounded-block h-[26.25rem] w-full object-cover object-top lg:h-[34.375rem] lg:rounded-l-none"
+          className="rounded-block h-[26.25rem] w-full object-cover object-top lg:h-full lg:min-h-[34.375rem] lg:rounded-l-none"
         />
       </div>
     </Container>

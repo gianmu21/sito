@@ -1,14 +1,35 @@
 {
   "nav": [
-    { "label": "Home", "href": "/" },
-    { "label": "CV", "href": "/cv" },
-    { "label": "Cases", "href": "/cases" },
-    { "label": "Contact", "href": "/contact" }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "CV",
+      "href": "/cv"
+    },
+    {
+      "label": "Cases",
+      "href": "/cases"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact"
+    }
   ],
   "legal": [
-    { "label": "Contact", "href": "/contact" },
-    { "label": "Privacy Policy", "href": "/privacy" },
-    { "label": "Impressum", "href": "/impressum" }
+    {
+      "label": "Contact",
+      "href": "/contact"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "/privacy"
+    },
+    {
+      "label": "Impressum",
+      "href": "/impressum"
+    }
   ],
   "menuOpen": "Open site navigation",
   "menuClose": "Close site navigation",
@@ -17,12 +38,37 @@
   "form": {
     "name": "Your Name",
     "email": "Email",
-    "message": "Message",
+    "next": "Next",
+    "back": "Back",
+    "submit": "Submit",
+    "step2Heading": "Tell me more about your business",
+    "company": "Company name",
+    "url": "Company URL",
+    "topic": "Topic",
+    "topicOptions": [
+      "Multi-Channel",
+      "Paid Search",
+      "Paid social",
+      "Affiliate",
+      "Digital Analytics",
+      "Other"
+    ],
+    "budget": "What's the monthly marketing budget?",
+    "budgetOptions": [
+      "Still to evaluate",
+      "0€ - 10.000€",
+      "10.000€ - 50.000€",
+      "50.000 € +"
+    ],
+    "message": "Tell me more",
+    "messageHint": "Write 2 lines about your company and what I can do to support it",
     "required": "(Required)",
-    "submit": "Send",
     "sending": "Sending…",
     "sent": "Thanks, your message is on its way. I’ll get back to you shortly.",
     "error": "Something went wrong."
   },
-  "notFound": { "title": "Page not found", "back": "Back to home" }
+  "notFound": {
+    "title": "Page not found",
+    "back": "Back to home"
+  }
 }
