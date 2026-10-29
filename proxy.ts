@@ -1,15 +1,25 @@
 import { NextResponse, type NextRequest } from "next/server";
+import { isBlockedBot } from "@/lib/bots";
 import { defaultLocale, isLocale } from "@/lib/i18n";
 
+const passThrough = /^\/(api\/|images\/|icon\.svg$|sitemap\.xml$|robots\.txt$|favicon\.ico$)/;
+
 /**
- * English lives at the root (/, /cv), German and Italian under /de and /it.
- * Unprefixed paths are rewritten internally to /en/..., and /en/... redirects
- * to the unprefixed form so there is one URL per page.
+ * 1. Known crawlers and script clients get a 403 on every path (search engines are
+ *    not on the list, see lib/bots.ts).
+ * 2. English lives at the root (/, /cv), German and Italian under /de and /it.
+ *    Unprefixed paths are rewritten internally to /en/..., and /en/... redirects
+ *    to the unprefixed form so there is one URL per page.
  */
 export function proxy(request: NextRequest) {
-  const { pathname } = request.nextUrl;
-  const first = pathname.split("/")[1] ?? "";
+  if (isBlockedBot(request.headers.get("user-agent"))) {
+    return new NextResponse("Forbidden", { status: 403, headers: { "cache-control": "no-store" } });
+  }
 
+  const { pathname } = request.nextUrl;
+  if (passThrough.test(pathname)) return NextResponse.next();
+
+  const first = pathname.split("/")[1] ?? "";
   if (first === defaultLocale) {
     const url = request.nextUrl.clone();
     url.pathname = pathname.slice(defaultLocale.length + 1) || "/";
@@ -23,5 +33,6 @@ export function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/((?!api|_next|images|videos|icon\\.svg|sitemap\\.xml|robots\\.txt|favicon\\.ico).*)"],
+  // Everything except Next's own static assets, so the bot check also covers /api and /images.
+  matcher: ["/((?!_next/static|_next/image).*)"],
 };
