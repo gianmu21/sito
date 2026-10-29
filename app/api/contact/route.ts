@@ -43,8 +43,11 @@ export async function POST(request: Request) {
   if (topic && !TOPICS.includes(topic)) return NextResponse.json({ error: "Invalid topic." }, { status: 400 });
   if (budget && !BUDGETS.includes(budget)) return NextResponse.json({ error: "Invalid budget." }, { status: 400 });
 
+  // Resend's shared test sender only delivers to the address the Resend account was
+  // created with, so CONTACT_TO must be that address. With a verified domain, change
+  // the sender to an address on it and CONTACT_TO can be any mailbox.
   const to = process.env.CONTACT_TO ?? site.email;
-  const from = process.env.CONTACT_FROM ?? "Website <onboarding@resend.dev>";
+  const from = "Website <onboarding@resend.dev>";
   const lines = [
     `Name: ${name}`,
     `Email: ${email}`,
