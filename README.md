@@ -48,7 +48,7 @@ Wix scales the whole layout with the viewport above 1440px. `globals.css` does t
 
 ## Contact form
 
-The form posts to `/api/contact`, which emails the message through Resend, from `contact@giannivindimian.com` to the same mailbox with the visitor as reply-to. The domain is verified in Resend; its DNS records sit on the `send` and `resend._domainkey` subdomains, so the Hostinger mailbox records stay as they are. Without `RESEND_API_KEY` the form still renders, but sending returns a 503 with a message pointing to the email address. See `.env.example` for all variables. The form has two steps like the Wix one (name and email, then company, URL, topic, budget and message). The hidden `fax` field is a honeypot for bots.
+The form posts to `/api/contact`, which emails the message through Resend to `CONTACT_TO` with the visitor as reply-to. It sends from Resend's shared `onboarding@resend.dev` address, which needs no domain setup but only delivers to the address the Resend account was created with, so `CONTACT_TO` must be that address. If the notifications land in spam, verify giannivindimian.com in Resend (its records sit on the `send` and `resend._domainkey` subdomains, so the Hostinger mailbox records stay as they are) and change the sender in the route to an address on the domain. Without `RESEND_API_KEY` the form still renders, but sending returns a 503 with a message pointing to the email address. See `.env.example` for all variables. The form has two steps like the Wix one (name and email, then company, URL, topic, budget and message). The hidden `fax` field is a honeypot for bots.
 
 ## Bots
 
